@@ -1,7 +1,7 @@
 # Presearch-Node
  Set Up Guide For Multiple Presearch Node
 <h3>Requirements</h3>
-<br>1. VPN <a href="https://windscribe.com/yo/jtwxu32v" target="_blank">Download "Windscribe"</a> Optional, If you only want to set up 1 Node, Don't need VPN.
+<br>1. VPN <a href="https://windscribe.com/yo/jtwxu32v" target="_blank">Sign Up "Windscribe" & Download</a> Optional, If you only want to set up 1 Node, Don't need VPN.
 <br>2. Virtual Box with Ubuntu Server |<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Download VM Virtual Box</a> |<a href="https://ubuntu.com/download/server" target="_blank">Download Ubuntu</a>
 <br>3. Filezilla <a href="https://filezilla-project.org/" target="_blank">Download</a> Optional, If you only want to set up 1 Node, Don't need Filezilla.
 <br>4. Putty <a href="https://www.putty.org/" target="_blank">Download</a>
