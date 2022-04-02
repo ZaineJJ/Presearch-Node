@@ -51,9 +51,6 @@
 <h3>Step 5 VPN Optional</h3>
 <br>Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
 <br>Input "sudo apt --fix-broken install" Prompted windscribe default just click "enter"
-<br>Input "sudo apt-get remove --purge resolvconf && sudo apt-get install resolvconf" 
-<br> Input "sudo reboot" 
-<br> After reboot completes, Login via putty. 
 <br> Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
 <br> Input "windscribe login" to login to your windscribe account
 <br> Input "windscribe connect" to connect to the best location [Note if you are setting multiple Nodes connect to other locations]
