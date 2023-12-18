@@ -37,13 +37,15 @@
 
 <h3>Step 3</h3>
 <br> Installing Presearch On Virtualbox
-<br> Input "curl -fsSL https://get.docker.com -o get-docker.sh"
-<br> Input "sudo sh get-docker.sh"
-<br> Input "sudo docker run -d --name presearch-auto-updater --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock presearch/auto-updater --cleanup --interval 900 presearch-auto-updater presearch-node"
-<br> Input "sudo docker pull presearch/node"
-<br> Input "sudo docker run -dt --name presearch-node --restart=unless-stopped -v presearch-node-storage:/app/node -e REGISTRATION_CODE=EnterYourRegistrationCodeHere presearch/node" 
-<br> Input "sudo docker logs -f presearch-node" and you will see the PRE Logo and awaiting for search.
-
+<br> Install Docker first 
+<br> Input "sudo apt update ; sudo apt upgrade -y ; sudo apt install docker.io"
+<br> Input "sudo usermod -aG docker $USER"
+<br> Install Presearch with this bunch, do input your own registeration code at "$YOUR_REGISTRATION_CODE_HERE" below
+<br>
+<blockquote>
+docker stop presearch-node ; docker rm presearch-node ; docker stop presearch-auto-updater ; docker rm presearch-auto-updater ; docker run -d --name presearch-auto-updater --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock presearch/auto-updater --cleanup --interval 900 presearch-auto-updater presearch-node ; docker pull presearch/node ; docker run -dt --name presearch-node --restart=unless-stopped -v presearch-node-storage:/app/node -e REGISTRATION_CODE=<b>$YOUR_REGISTRATION_CODE_HERE</b>  -e STAKE="disconnected:oldest,wallet:minimum" -e ALLOW_DISCONNECTED_STAKE_TRANSFER_AFTER="30m" presearch/node ; docker logs -f presearch-node
+</blockquote>
+<br>
 <h3>Step 4 VPN Optional</h3>
 <br>Download VPN Package Input "wget https://github.com/ZaineJJ/Presearch-Node/releases/download/release/windscribe-cli_1.4-51_amd64.deb"
 <br>Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
