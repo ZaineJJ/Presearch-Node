@@ -5,7 +5,7 @@
 <br>2. Virtual Box with Ubuntu Server |<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Download VM Virtual Box</a> |<a href="https://ubuntu.com/download/server" target="_blank">Download Ubuntu</a>
 <br>3. Filezilla <a href="https://filezilla-project.org/" target="_blank">Download</a> Optional, If you only want to set up 1 Node, Don't need Filezilla.
 <br>4. Putty <a href="https://www.putty.org/" target="_blank">Download</a>
-<br>5. 2,000 PRE per Node <a href="https://bit.ly/SignUpKucoinToday" target="_blank">Buy PRE</a>
+<br>5. 4,000 PRE per Node <a href="https://bit.ly/SignUpKucoinToday" target="_blank">Buy PRE</a>
 <br>6. Watch this <a href="https://youtu.be/h_QcIbNLK2c" target="_blank">Video</a> and <a href="http://bit.ly/Simplyeverythingcrypto" target="_blank">Subscribe!</a>
 <br>
 <h3>Step 1</h3>
@@ -44,12 +44,8 @@
 <br> Input "sudo docker run -dt --name presearch-node --restart=unless-stopped -v presearch-node-storage:/app/node -e REGISTRATION_CODE=EnterYourRegistrationCodeHere presearch/node" 
 <br> Input "sudo docker logs -f presearch-node" and you will see the PRE Logo and awaiting for search.
 
-<h3>Step 4 Optional</h3> 
-<br>Transfer Windscribe download to your Virtualbox via Filezilla
-<br>Watch <a href="https://youtu.be/h_QcIbNLK2c" target="_blank">Video</a> [14:08]
-
-<h3>Step 5 VPN Optional</h3>
-<br>Input "wget https://github.com/ZaineJJ/Presearch-Node/releases/download/release/windscribe-cli_1.4-51_amd64.deb"
+<h3>Step 4 VPN Optional</h3>
+<br>Download VPN Package Input "wget https://github.com/ZaineJJ/Presearch-Node/releases/download/release/windscribe-cli_1.4-51_amd64.deb"
 <br>Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
 <br>Input "sudo apt --fix-broken install" Prompted windscribe default just click "enter"
 <br> Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
