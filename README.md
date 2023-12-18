@@ -5,8 +5,9 @@
 <br>2. Virtual Box with Ubuntu Server |<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Download VM Virtual Box</a> |<a href="https://ubuntu.com/download/server" target="_blank">Download Ubuntu</a>
 <br>3. Filezilla <a href="https://filezilla-project.org/" target="_blank">Download</a> Optional, If you only want to set up 1 Node, Don't need Filezilla.
 <br>4. Putty <a href="https://www.putty.org/" target="_blank">Download</a>
-<br>5. 4,000 PRE per Node <a href="https://bit.ly/SignUpKucoinToday" target="_blank">Buy PRE</a>
-<br>6. Watch this <a href="https://youtu.be/h_QcIbNLK2c" target="_blank">Video</a> and <a href="http://bit.ly/Simplyeverythingcrypto" target="_blank">Subscribe!</a>
+<br>5. Own a Presearch Account <a href="https://presearch.com/signup?rid=3735748" target="_blank"> Register here </a>
+<br>6. 4,000 PRE per Node <a href="https://bit.ly/SignUpKucoinToday" target="_blank">Buy PRE</a>
+<br>7. Watch this <a href="https://youtu.be/h_QcIbNLK2c" target="_blank">Video</a> and <a href="http://bit.ly/Simplyeverythingcrypto" target="_blank">Subscribe!</a>
 <br>
 <h3>Step 1</h3>
 <br> Setting Up Virtual Box
