@@ -49,6 +49,7 @@
 <br>Watch <a href="https://youtu.be/h_QcIbNLK2c" target="_blank">Video</a> [14:08]
 
 <h3>Step 5 VPN Optional</h3>
+<br>Input "wget https://github.com/ZaineJJ/Presearch-Node/releases/download/release/windscribe-cli_1.4-51_amd64.deb"
 <br>Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
 <br>Input "sudo apt --fix-broken install" Prompted windscribe default just click "enter"
 <br> Input "sudo dpkg -i windscribe-cli_1.4-51_amd64.deb" 
